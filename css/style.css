@@ -1,4 +1,8 @@
 body {
 	font-family: font-family: 'Oswald', sans-serif;
-	
+
+}
+.setting-wrap {
+	width: 959px;
+	background-color: lime;
 }
