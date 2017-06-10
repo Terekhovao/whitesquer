@@ -1,8 +1,43 @@
 body {
-	font-family: font-family: 'Oswald', sans-serif;
-
+	font-family:'Oswald', sans-serif;
+	background: url(../img/Back.png);	
 }
 .setting-wrap {
 	width: 959px;
-	background-color: lime;
+	height: 200px;
+	margin-left: 150px;
+	margin-bottom: 30px;
+}
+.menu-list {
+	height: 39px;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	font-size: 14px;
+	font-family: "Oswald",regular;
+	margin: 0;
+}
+.menu-list li:last-child {
+width: 118px;
+}
+
+.menu-list ul {
+	margin: 0;
+	padding: 0; 
+}
+.menu-list ul li{
+	display: inline-block;
+	width: 114px;
+	line-height: 39px;
+	text-align: center;
+}
+.menu-list ul li a {
+	text-decoration: none;
+	text-transform: uppercase;	
+	color: #b2b2b2; 
+}
+.menu-list ul li a:hover {
+color: white;
+}
+ .menu-list ul li:hover{
+	background: #29c5e6; 
 }
